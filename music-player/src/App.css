@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+display: flex;
+ width: fit-content;
+ align-items: center;
+ justify-content: center;
+  
+ 
+}
+.audioPlayer{
+  background-color:rgb(224, 234, 226);
+  color: rgb(96, 74, 7);
+}
