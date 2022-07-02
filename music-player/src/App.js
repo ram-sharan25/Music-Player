@@ -6,7 +6,7 @@ import AudioPlayer from './components/AudioPlayer';
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App flex jusfity-center">
       <AudioPlayer/>
      
     </div>

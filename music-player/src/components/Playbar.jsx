@@ -84,7 +84,7 @@ function Playbar() {
         />
       </div>
       <br />
-      <div className="flex justify-center">
+      <div className="  flex justify-center">
         <div className="text-4xl font-bold ">
           <button
             onClick={() => {
@@ -93,7 +93,7 @@ function Playbar() {
               });
             }}
           >
-            <i className=" px-6 mx-1 bg-slate-300 rounded-xl shadow-lg fa fa-backward transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-slate-400 duration-300 ..."></i>
+            <i className="buttons  bg-slate-300 rounded-xl shadow-lg fa fa-backward transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-slate-400 duration-300 ..."></i>
           </button>
           <button
             onClick={() => {
@@ -104,9 +104,9 @@ function Playbar() {
             }}
           >
             {playing ? (
-              <i className="px-6 mx-1 bg-slate-300 rounded-xl shadow-lg  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-slate-400 duration-300 ... fa fa-pause" />
+              <i className=" buttons px-6 mx-1 bg-slate-300 rounded-xl shadow-lg  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-slate-400 duration-300 ... fa fa-pause" />
             ) : (
-              <i className="px-6 mx-1 bg-slate-300 rounded-xl shadow-lg  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-slate-400 duration-300 ... fa fa-play" />
+              <i className=" buttons px-6 mx-1 bg-slate-300 rounded-xl shadow-lg  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-slate-400 duration-300 ... fa fa-play" />
             )}
           </button>
           <button
@@ -116,7 +116,7 @@ function Playbar() {
               });
             }}
           >
-            <i className=" px-6 mx-1 bg-slate-300 rounded-xl shadow-lg fa fa-backward transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-slate-400 duration-300 ... fa fa-forward"></i>
+            <i className="buttons bg-slate-300 rounded-xl shadow-lg fa fa-backward transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-slate-400 duration-300 ... fa fa-forward"></i>
           </button>
         </div>
       </div>

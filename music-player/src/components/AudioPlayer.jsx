@@ -13,7 +13,7 @@ function AudioPLayer() {
   const song = state.songs[state.songIndex];
 
   return (
-    <div className="align-center items-center">
+    <div className=" audioPlayer flex justify-center align-center items-center">
 
     
     <StoreContext.Provider value={{ state, dispatch }}>
