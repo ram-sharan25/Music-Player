@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  display: flex;
-  width: fit-content;
-  align-items: center;
-  justify-content: center;
-}
 .audioPlayer {
  
   padding: 10px;
