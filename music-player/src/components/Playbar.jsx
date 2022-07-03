@@ -18,6 +18,8 @@ const handleProgress = (currentTime, length) => {
   }
   return 100 * (currentTime / length);
 };
+
+ 
 function Playbar() {
   const { state, dispatch } = useContext(StoreContext);
   const audioRef = useRef();
@@ -82,6 +84,10 @@ function Playbar() {
           className="progressInner "
           style={{ width: `${handleProgress(currentTime, length)}%` }}
         />
+      </div>
+      <div className="circle"
+      style={{width: `${currentTime-10}`}}>
+
       </div>
       <br />
       <div className="  flex justify-center">

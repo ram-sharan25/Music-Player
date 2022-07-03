@@ -13,10 +13,11 @@ body {
  
   padding: 10px;
   border: 3px solid saddlebrown;
-  background-color: rgb(3, 35, 54);
-  color: rgb(96, 74, 7);
+  background-color: rgb(167, 177, 183);
+  color: rgb(246, 245, 242);
+  font-family: cursive;
   
 }
 .songs{
-  background-color: rgb(32, 7, 56);
+  color: rgb(82, 84, 96);
 }

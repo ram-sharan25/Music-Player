@@ -17,9 +17,9 @@ function AudioPLayer() {
 
     
     <StoreContext.Provider value={{ state, dispatch }}>
-      <div className="audioPlayer ">
-        <div className="px-20  title text-xl font-extrabold">{song.title}</div>
-        <div className="px-20  text-lg">{song.artist}</div>
+      <div className="audioPlayer  ">
+        <div className="px-20 text-center  title text-xl font-extrabold">{song.title}</div>
+        <div className="px-20 text-center  text-lg">{song.artist}</div>
         <Playbar />
         <br/>
         <SongsList />

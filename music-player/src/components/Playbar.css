@@ -29,5 +29,10 @@
 .buttons{
   padding: 15px 25px 15px 25px;
   border-radius: 30px;
-  background-color:rgb(63, 6, 70) ;
+  background-color:rgb(68, 48, 71) ;
+  color:#000000;
+}
+.circle{
+  background-color: black;
+  
 }
